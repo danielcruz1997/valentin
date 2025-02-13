@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentinstagsfrage</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('image.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            border: 5px solid #ff4d4d;
+            width: 80%;
+            max-width: 400px;
+            position: relative;
+        }
+        h1 {
+            color: #ff4d4d;
+            text-shadow: 2px 2px 5px rgba(255, 77, 77, 0.5);
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .button {
+            font-size: 18px;
+            padding: 12px 20px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            width: 80%;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .green {
+            background-color: #28a745;
+            color: white;
+        }
+        .red {
+            background-color: #dc3545;
+            color: white;
+        }
+        .heart {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 30px;
+            color: #ff4d4d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <h1>Schatzl, willst du mein Valentines-Date sein? ❤️</h1>
+        <div class="buttons">
+            <button class="button green">JA</button>
+            <button class="button red">JA (nur in Rot)</button>
+        </div>
+    </div>
+</body>
+</html>
