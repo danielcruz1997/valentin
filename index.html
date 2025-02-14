@@ -70,19 +70,23 @@
             color: white;
         }
     </style>
+    <script>
+        function redirectToImage() {
+            window.open('image.html', '_blank');
+        }
+    </script>
 </head>
 <body>
     <div class="container">
         <h1>Schatzl, willst du mein Valentines-Date sein? ❤️</h1>
         <img src="Australian-Shepherd-Dog-In-Hearts-Basket-Graphics-79581640-1-removebg-preview.png" alt="Süßer Hund" class="dog-image">
         <div class="buttons">
-            <button class="button green">JA</button>
-            <button class="button red">JA (nur in Rot)</button>
+            <button class="button green" onclick="redirectToImage()">JA</button>
+            <button class="button red" onclick="redirectToImage()">JA (nur in Rot)</button>
         </div>
     </div>
 </body>
 </html>
-
 
 
 
