@@ -20,7 +20,6 @@
         .container {
             background-color: rgba(255, 255, 255, 0.9);
             padding: 40px;
-            border-radius: 20px;
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
             width: 80%;
             max-width: 400px;
@@ -34,10 +33,13 @@
         h1 {
             color: #ff4d4d;
             text-shadow: 3px 3px 6px rgba(255, 77, 77, 0.5);
-            font-size: 26px;
+            font-size: 28px;
+            font-weight: bold;
         }
         .buttons {
             margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
         }
         .button {
             font-size: 20px;
@@ -46,7 +48,7 @@
             border: none;
             cursor: pointer;
             border-radius: 10px;
-            width: 80%;
+            width: 45%;
             transition: transform 0.2s, box-shadow 0.2s;
         }
         .button:hover {
@@ -61,14 +63,6 @@
             background-color: #dc3545;
             color: white;
         }
-        .teddy {
-            position: absolute;
-            bottom: -50px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: auto;
-        }
     </style>
 </head>
 <body>
@@ -78,7 +72,7 @@
             <button class="button green">JA</button>
             <button class="button red">JA (nur in Rot)</button>
         </div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Teddy_Bear_%28Sitting%29.png" alt="Süßer Teddybär" class="teddy">
     </div>
 </body>
 </html>
+
