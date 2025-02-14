@@ -10,10 +10,23 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #ffe6e6;
+            background-image: url('Hintergrund für valentinstag');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             margin: 0;
+            position: relative;
         }
-        img {
+        .image-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.7); /* Bild leicht über Hintergrund */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .main-image {
             max-width: 80%;
             height: auto;
             border: 5px solid #ff4d4d;
@@ -22,6 +35,8 @@
     </style>
 </head>
 <body>
-    <img src="istockphoto-1201265284-612x612.jpg">
+    <div class="image-container">
+        <img src="istockphoto-1201265284-612x612.jpg" alt="Überraschungsbild" class="main-image">
+    </div>
 </body>
 </html>
