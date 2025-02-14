@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valentinstagsfrage</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+        
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-family: 'Dancing Script', cursive;
             text-align: center;
             background-color: #ffe6e6;
             display: flex;
@@ -14,30 +16,31 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-image: url('22968794-liebe-hintergrund-romantisch-hintergrund-liebhaber-rand-design-liebhaber-design-liebe-rand-vektor.jpg');
-            background-size: 27%;
-            background-position: center;
-            background-repeat: no-repeat;
         }
         .container {
             background-color: rgba(255, 255, 255, 0.9);
-            padding: 30px;
-            border-radius: 15px;
+            padding: 40px;
+            border-radius: 20px;
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
             width: 80%;
             max-width: 400px;
             position: relative;
-            border: 10px solid transparent;
+            border: 15px solid transparent;
+            background-image: url('/mnt/data/image.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
         h1 {
             color: #ff4d4d;
-            text-shadow: 2px 2px 5px rgba(255, 77, 77, 0.5);
+            text-shadow: 3px 3px 6px rgba(255, 77, 77, 0.5);
+            font-size: 26px;
         }
         .buttons {
             margin-top: 20px;
         }
         .button {
-            font-size: 18px;
+            font-size: 20px;
             padding: 12px 20px;
             margin: 10px;
             border: none;
@@ -58,25 +61,24 @@
             background-color: #dc3545;
             color: white;
         }
-        .heart {
+        .teddy {
             position: absolute;
-            top: -15px;
+            bottom: -50px;
             left: 50%;
             transform: translateX(-50%);
-            font-size: 30px;
-            color: #ff4d4d;
+            width: 100px;
+            height: auto;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Schatzl, willst du mein Valentines-Date sein? </h1>
+        <h1>Schatzl, willst du mein Valentines-Date sein? ❤️</h1>
         <div class="buttons">
             <button class="button green">JA</button>
             <button class="button red">JA (nur in Rot)</button>
         </div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Teddy_Bear_%28Sitting%29.png" alt="Süßer Teddybär" class="teddy">
     </div>
 </body>
 </html>
-
-
